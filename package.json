@@ -1,0 +1,20 @@
+{
+  "name": "homeworktwo",
+  "version": "1.0.0",
+  "description": "Create a simple MVC project.\r Four links in the navigation that when clicked on display that pages information in the content area of the site.\r You can create any page and design that you like but you must have four pages and they must contain images and text. Lorem is fine to use.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile": "sass scss/styles.scss css/styles.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.67.0"
+  }
+}
